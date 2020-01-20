@@ -1,0 +1,19 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.amber,
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text('I Am Rich'),
+          backgroundColor: Colors.deepPurple,
+        ),
+        body: Image(
+          image: NetworkImage('http://icons.iconarchive.com/icons/ncrow/mega-pack-1/256/AnyDVD-HD-icon.png')
+        ),
+      ),
+    ),
+  );
+}
