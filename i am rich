@@ -1,0 +1,22 @@
+//i am rich file
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.amber,
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text('I Am Rich'),
+          backgroundColor: Colors.deepPurple,
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png') //image is placed in a folder called images
+          ),
+        ),
+      ),
+    ),
+  );
+}
